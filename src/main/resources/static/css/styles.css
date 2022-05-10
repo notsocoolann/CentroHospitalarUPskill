@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    font-size: 1.1vw;
+    font-family: Lato, sans-serif;
+}
+
+body{
+    background-color: white;
+    background-image: url("img/Bg_ap@2x.png");
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+/* ========== Header ============== */
+
+/* ========== Main ============== */
+
+.logo{
+    padding-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.introtext{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 1.7rem;
+}
+
+.iconnav{
+    margin-bottom: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar :hover{
+    background-color: #DEECC1;
+}
+.sidebar{
+    width: 18.5rem;
+    background-color: white;
+    box-shadow: #808080;
+    position: absolute;
+}
+
+.sidebar nav ul li{
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.sidebar nav ul li a{
+    margin-left: 1.2rem;
+}
+
+.upskillLogo{
+    margin-top: 22rem;
+    margin-left: 1.25rem;
+}
+
+.terminar{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.terminar a{
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+}
+.acessos{
+    margin-left: 20rem;
+}
+
+.acessos_texto{
+    margin-left: 3rem;
+    padding-top: 6.7rem;
+    margin-bottom: -5rem;
+
+}
+
+.rectangulo{
+    background-color: #FFFFFF;
+    opacity: 75%;
+    margin-left: 3rem;
+    margin-top: 7.5rem;
+    height: 24rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: .5rem;
+}
+
+.bckgret{
+    background-color: #DEECC1;
+    height: 20rem;
+    width: 18rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+
+.check-in{
+    text-align: center;
+}
+
+.check-in h3{
+    padding-top: .5rem;
+}
+
+.check-in p{
+    padding-top: 4rem;
+    margin-bottom: -4rem;
+}
+
+.check-in button{
+    margin-top: 7.8rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.check-in button:hover{
+    background-color: #98C33E;
+}
+
+#checkin{
+    margin-top: 8rem;
+    margin-bottom: -5rem;
+    border-radius: .5rem;
+    resize: none;
+}
+
+.registo{
+    text-align: center;
+}
+
+.registo h3{
+    padding-top: .5rem;
+}
+
+.registo button{
+    margin-top: 14.4rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.consulta{
+    text-align: center;
+}
+
+.consulta h3{
+    padding-top: .5rem;
+}
+
+.consulta button{
+    margin-top: 14.4rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
